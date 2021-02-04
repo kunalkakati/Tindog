@@ -45,6 +45,11 @@ p {
   position: absolute;
   right: 23%;
 }
+@media(max-width : 600px){
+  .routed-img {
+    visibility: hidden;
+  }
+}
 
 .nav-item {
   padding-left: 60px;
@@ -76,7 +81,7 @@ p {
 .Fimage {
   color: #ef8172;
   /* padding-left: 55px; */
-  font-size: 0.5rem;
+  /* font-size: 0.5rem; */
 }
 
 .Fimage:hover {
